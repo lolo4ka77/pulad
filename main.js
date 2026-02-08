@@ -22,7 +22,7 @@ const translations = {
         about_title: "Kim jesteśmy?",
         about_p1: "Pulad to zespół ekspertów łączących potrzeby nowoczesnych przedsiębiorstw z potencjałem wykwalifikowanych pracowników z państw trzecich.",
         about_p2: "Dzięki bezpośredniej obecności w krajach trzecich oraz głębokiej znajomości rynku europejskiego, oferujemy kompleksowe rozwiązania kadrowe oparte na zaufaniu i przejrzystości.",
-        about_p3: "Nie pobieramy opłat z góry. Płacisz tylko za realizację — gdy pracownik rozpocznie pracę.",
+        
         adv_title: "Nasza przewaga",
         adv_text: "W przeciwieństwie do pośredników internetowych, mamy <strong>fizyczne biura w krajach pochodzenia</strong>. Osobiście rekrutujemy, weryfikujemy dokumenty i przygotowujemy pracowników do wyjazdu. To gwarantuje jakość i eliminuje oszustwa.",
         sectors_title: "Branże, które obsługujemy",
@@ -92,7 +92,7 @@ const translations = {
         about_title: "Who we are?",
         about_p1: "Pulad is a team of experts connecting the needs of modern enterprises with the potential of qualified workers from third countries.",
         about_p2: "Thanks to our direct presence in third countries and deep knowledge of the European market, we offer comprehensive HR solutions based on trust and transparency.",
-        about_p3: "We do not charge upfront fees. You pay only for results — when the employee starts work.",
+        
         adv_title: "Our advantage",
         adv_text: "Unlike internet intermediaries, we have <strong>physical offices in countries of origin</strong>. We personally recruit, verify documents and prepare workers for departure. This guarantees quality and eliminates fraud.",
         sectors_title: "Industries we serve",
@@ -162,7 +162,7 @@ const translations = {
         about_title: "Wer sind wir?",
         about_p1: "Pulad ist ein Team von Experten, das die Bedürfnisse moderner Unternehmen mit dem Potenzial qualifizierter Arbeitskräfte aus Drittländern verbindet.",
         about_p2: "Dank unserer direkten Präsenz in Drittländern sowie unserer tiefen Kenntnis des europäischen Marktes bieten wir umfassende HR-Lösungen auf Basis von Vertrauen und Transparenz.",
-        about_p3: "Wir verlangen keine Vorkasse. Sie zahlen nur für Ergebnisse — wenn der Mitarbeiter seine Arbeit aufnimmt.",
+        
         adv_title: "Unser Vorteil",
         adv_text: "Im Gegensatz zu Internet-Vermittlern haben wir <strong>physische Büros in den Herkunftsländern</strong>. Wir rekrutieren persönlich, überprüfen Dokumente und bereiten Arbeitskräfte auf die Abreise vor. Das garantiert Qualität und eliminiert Betrug.",
         sectors_title: "Branchen, die wir bedienen",
@@ -251,3 +251,4 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 document.addEventListener('DOMContentLoaded', () => {
     switchLang(currentLang);
 });
+
